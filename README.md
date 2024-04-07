@@ -1,2 +1,2 @@
 # R-B-Detection
-Detects the location of a red or blue object with EasyOpenCV
+Detects the location of a Red or Blue object with EasyOpenCV
