@@ -29,8 +29,8 @@ public class RedTester extends LinearOpMode{
         webcam.setPipeline(color);
 
 
-        final int cameraWidth = 1184;
-        final int cameraHeight = 656;
+        final int cameraWidth = 1280;
+        final int cameraHeight = 720;
 
 
         webcam.openCameraDeviceAsync(new OpenCvCamera.AsyncCameraOpenListener() {
