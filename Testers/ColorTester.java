@@ -14,7 +14,7 @@ import org.openftc.easyopencv.OpenCvCameraRotation;
 import org.openftc.easyopencv.OpenCvWebcam;
 
 
-
+//this one works for both, just change line 33.
 @Autonomous(name="Color Tester")
 public class ColorTester extends LinearOpMode{
     boolean isOnRight,isOnMiddle,isOnLeft;
@@ -28,6 +28,8 @@ public class ColorTester extends LinearOpMode{
 
     LocateBlue colorB;
     LocateRed colorR;
+    
+    //change the color that you are looking for here
     Color color = Color.RED;
 
     public void runOpMode() throws InterruptedException{
